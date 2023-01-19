@@ -2,14 +2,14 @@
 
 En markdown también puedes definir bloques de código, tanto en línea como en forma de bloque.
 
-- [Código en línea]()
+- [Código en línea](#código-en-línea)
 
-- [Bloques de código]()
-  - [Bloques estándar]()
-  - [Resaltado de sintaxis]()
-  - [Bloques de código anidados]()
+- [Bloques de código](#bloques-de-código)
+  - [Bloques estándar](#bloques-estándar)
+  - [Resaltado de sintaxis](#resaltado-de-sintaxis)
+  - [Bloques de código anidados](#bloques-de-código-anidados)
   
-- [Código HTML]()
+- [Código HTML](#código-html)
 
 [**&#11176;** *Anterior* &#11007;](/MarkDown/formatoDeTexto.md "Formato de texto") 
 [Siguiente **&#129042;**](/MarkDown/listas.md "Enlaces")
