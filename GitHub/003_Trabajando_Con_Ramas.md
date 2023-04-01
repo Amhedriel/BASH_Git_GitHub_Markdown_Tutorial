@@ -29,7 +29,7 @@ que nos va a mostrar todo de una manera similar pero con un poco más de datos.
 Analicemos el output de este comando:
 
 ```BASH
-Git show branch --all
+git show branch --all
 
 ![cabecera] modifique la cabecera y el color del texto
   *  [main] Una versión del hyperblog
@@ -54,19 +54,19 @@ Sin embargo algo que debemos saber es que todos los desarrolladores profesionale
 
 Muy bien para la versión más sencilla simplemente:
 
-	Git branch
+	git branch
 
 me has entender que hay 2 ramas main y cabecera, pero no hemos enviado cabecera, y enviarlo es tan fácil como colocar:
 
-	Git pull origin main
+	git pull origin main
 
 Ahora vamos a movernos en nuestra barra de cabecera:
 
-	Git checkout cabecera
+	git checkout cabecera
 
 Hacemos:
 
-	Git push origin cabecera
+	git push origin cabecera
 
 Es decir vamos a empujarle a `origin ` que es el nombre de nuestra rama en internet la rama cabecera. 
 
@@ -91,11 +91,11 @@ Con el comando de git branch podemos ver que ya tenemos esas ramas creadas
 
 Vamos a enviar esto a internet para que si alguien copia de internet de estos datos los va a tener muy claro, entonces vamos a darle:
 
-	Git push origin header
+	git push origin header
 
 Y esto va a enviar mi rama header.
 
-	Git push origin footer
+	git push origin footer
 
 Esto va a enviar mi llama ``footer``  tbn ahora lo interesante será ver cómo es el flujo de trabajo, imaginemos que hay otro programador completamente distinto que se va a cargar a hacer el footer yo me encargaré de ser el header, qué pasa cuando ese programador quiere fusionar su trabajo the footer con el trabajo de header y cuando los 2 estamos listos enviarlo master eso es lo que va a ser muy interesante. 
 
