@@ -99,4 +99,35 @@ Y esto va a enviar mi rama header.
 
 Esto va a enviar mi llama ``footer``  tbn ahora lo interesante será ver cómo es el flujo de trabajo, imaginemos que hay otro programador completamente distinto que se va a cargar a hacer el footer yo me encargaré de ser el header, qué pasa cuando ese programador quiere fusionar su trabajo the footer con el trabajo de header y cuando los 2 estamos listos enviarlo master eso es lo que va a ser muy interesante. 
 
+Si no te funciona el comando gitk es posible no lo tengas instalado por defecto.
+Para instalar gitk debemos ejecutar los siguientes comandos:
+
+    sudo apt-get update
+
+    sudo apt-get install gitk
+
+
+## Resumen
 Y eso es básicamente un flujo de trabajo en github.
+
+Comandos para manejo de ramas en GitHub
+- Crear una rama:
+
+      git branch branchName
+
+- Movernos a otra rama:
+
+      git checkout branchName
+
+- Crear una rama en el repositorio local:
+
+      git branch nombre-de-la-rama 
+    o 
+      
+      git checkout -b nombre-de-la-rama.
+
+- Publicar una rama local al repositorio remoto:
+
+      git push origin nombre-de-la-rama.
+
+Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando ``gitk``. Gitk fue el primer visor gráfico que se desarrolló para ver de manera gráfica el historial de un repositorio de Git.
